@@ -1,0 +1,7 @@
+version: "3"
+services:
+  squid:
+    container_name: iris.squid
+    image: kilip/iris-squid:latest
+    volumes:
+      - ./var/cache:/var/cache/squid
